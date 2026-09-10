@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aashish fitness</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* css Reset */
+    body {
+      margin: 0px;
+      padding: 0px;
+      background: url("img/Aashish.jpg");
+    }
+    .left {
+      display: inline-block;
+      /* border: 2px solid rgb(93, 0, 255); */
+      position: absolute;
+      left: 45px;
+      top: 20px;
+    }
+    .left img {
+      width: 71px;
+      filter: invert(100%);
+      margin: 0px 13px;
+    }
+    .left div {
+      text-align: center;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      line-height: 13px;
+    }
+    .center {
+      margin: 20px auto;
+      display: block;
+      width: 40%;
+      /* border: 2px solid rgb(6, 90, 76); */
+    }
+    .right {
+      display: inline-block;
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      /* border: 2px solid black; */
+    }
+    .Navbar {
+      font-family: "Dancing Script", cursive;
+      display: inline-block;
+      font-size: 20px;
+    }
+    .Navbar li {
+      display: inline-block;
+    }
+    .Navbar li a {
+      color: black;
+      text-decoration: none;
+      padding: 34px 23px;
+    }
+    .Navbar li a:hover,
+    .Navbar li a.active {
+      text-decoration: underline;
+      color: #5d00ff;
+    }
+    .btn {
+      margin: 1px 9px;
+      background-color: black;
+      color: greenyellow;
+      padding: 4px 3px;
+      /* border: 2px solid grey; */
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+      font-family: "Dancing Script", cursive;
+    }
+    .btn:hover {
+      background-color: rgb(101, 78, 78);
+    }
+    .container {
+      /* border: 2px solid green; */
+      border: 2px solid green;
+      margin: 59px 64px;
+      padding: 17px 40px;
+      width: 28%;
+      border-radius: 11px;
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 240px;
+      padding: 6px;
+      border: 3px solid black;
+      margin: 3px auto;
+      border-radius: 10px;
+      font-size: 22px;
+      font-family: "Dancing Script", cursive;
+    }
+    .container h1{
+      text-align: center;
+    }
+    .container button{
+      display: block;
+      width: 60%;
+      margin: 20px auto;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <!-- Left box for logo -->
+      <div class="left">
+        <img src="img/images.png" alt="" />
+        <div>Aashish Fitness</div>
+      </div>
+      <!-- Mid box for navigation -->
+      <div class="center">
+        <ul class="Navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Fitness calculator </a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <!-- Right box for buttons -->
+      <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the best gym of Delhi now</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Gender" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Locality" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
