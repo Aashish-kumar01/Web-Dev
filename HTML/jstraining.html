@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div > p {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <p id="para">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab laudantium
+        architecto dicta voluptate accusantium. Inventore aut quis, repellendus
+        deleniti, quod molestias sapiente soluta natus illo corporis praesentium
+        aliquam, tenetur aspernatur?
+      </p>
+    </div>
+    <button id="btn">Click</button>
+    <form action="">
+        <input type="text" value="Fish" name="" id="inp" placeholder="">
+        <button type="text">
+        </button>
+    </form>
+    <script>
+            //1. selecting elements
+            // let container = document.getElementById("container")
+            // let para = document.getElementsByClassName("para");
+            // let para1 = document.querySelector(".para");
+            // console.log(para);
+            // console.log(para1);
+            // console.log(container);
+
+            //2. Modifying Elements
+            let para = document.getElementById("para");
+            console.log(para);
+            // text change
+            para.textContent = "hello";
+            // para.innerText = "hello";
+            // para.innerHTML = "hello";
+            para.style.color = "red";
+            para.style.backgroundColor = "yellow";
+            para.style.fontfamily = "verdana";
+
+            // 3. Adding Elements or Creating Elements
+            let newPara = document.createElement("p");
+            newPara.textContent = "new PAra";
+            container.appendChild(newPara);
+            container.removeChild(newPare);
+            document.body.append(newPara);
+
+          //   4. Event Handling
+          let btn = document.getElementById("btn");
+          console.log(btn);
+          btn.addEventListener("mouseover", function () {
+               alert("Button clicked")
+               console.log("hello")
+           })
+
+
+        //    Value from form
+        let inputBox = document.getElementById("inp");
+        console.log(inputBox)
+        console.log(inputBox.value)
+
+        localStorage.setItem("name", "shubham");
+
+        let name = localStorage.getItem("name")
+        console.log(name);
+        document.body.append(name);
+
+
+        localStorage.setItem("user", get)
+
+        // PROMISE
+        // it contains an object who decide to resolve or reject
+        // and also contains cell which decide if resolve then what we have to do and if reject then what we have to do
+
+
+    </script>  
+  </body>
+  </html>
+
+//shayari
+
+uski aankhon me is kadar noor tha, uski yaadon me to rona bhi manjoor the, bewafa bhi nhi keh sakte use*2, mohabbat to hamne ki thi wo to bekasur tha
+
+yudh nhi jiske jeevan me, wo bhi bade abhage honge, ya to pran ko tora hoga, ya to ran se bhage honge
+
+
+
+
+
+
+
+
+
+
+
+
+

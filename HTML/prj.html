@@ -1,0 +1,362 @@
+Sure, I can add another image referring to that specific element. Here is the updated code with an additional image:
+
+```html
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Rungta College of Engineering Alumni Association Platform
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;family=Merriweather:wght@700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Merriweather', serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gradient-to-r from-red-500 to-yellow-500 text-white">
+  <!-- Hero Section -->
+  <header class="bg-red-700 py-12">
+   <div class="container mx-auto text-center">
+    <img alt="Rungta College of Engineering logo" class="mx-auto mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/NEIQqUyhPGpsMlwU4Eh6m4rBmFzoGcKn2uduaf9zyBU6332JA.jpg" width="200"/>
+    <img alt="Rungta College of Engineering campus view" class="mx-auto mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/eeXpwCRAzyq1JEmnPqrj4TSw12VTJD7YorH3ZYxLMgcBzvtTA.jpg" width="200"/>
+    <h1 class="text-4xl font-bold">
+     Rungta College of Engineering Alumni Association
+    </h1>
+    <p class="text-xl mt-4">
+     Stay Connected, Stay Engaged
+    </p>
+    <div class="mt-6">
+     <a class="bg-yellow-500 text-red-700 px-6 py-3 rounded-full font-bold hover:bg-yellow-600" href="#join">
+      Join Us
+     </a>
+     <a class="bg-yellow-500 text-red-700 px-6 py-3 rounded-full font-bold hover:bg-yellow-600 ml-4" href="#events">
+      Events
+     </a>
+     <a class="bg-yellow-500 text-red-700 px-6 py-3 rounded-full font-bold hover:bg-yellow-600 ml-4" href="#directory">
+      Alumni Directory
+     </a>
+    </div>
+   </div>
+  </header>
+  <!-- User Registration and Profile Management -->
+  <section class="py-12 bg-white text-red-700" id="join">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Join the Alumni Network
+    </h2>
+    <div class="max-w-lg mx-auto bg-gray-100 p-8 rounded-lg shadow-lg">
+     <form>
+      <div class="mb-4">
+       <label class="block text-sm font-bold mb-2" for="name">
+        Name
+       </label>
+       <input class="w-full p-3 border rounded-lg" id="name" placeholder="Your Name" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-bold mb-2" for="email">
+        Email
+       </label>
+       <input class="w-full p-3 border rounded-lg" id="email" placeholder="Your Email" type="email"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-bold mb-2" for="graduation-year">
+        Graduation Year
+       </label>
+       <input class="w-full p-3 border rounded-lg" id="graduation-year" placeholder="Your Graduation Year" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-bold mb-2" for="current-employment">
+        Current Employment
+       </label>
+       <input class="w-full p-3 border rounded-lg" id="current-employment" placeholder="Your Current Employment" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-bold mb-2" for="expertise">
+        Areas of Expertise
+       </label>
+       <input class="w-full p-3 border rounded-lg" id="expertise" placeholder="Your Areas of Expertise" type="text"/>
+      </div>
+      <button class="w-full bg-red-700 text-white p-3 rounded-lg font-bold hover:bg-red-800" type="submit">
+       Register
+      </button>
+     </form>
+    </div>
+   </div>
+  </section>
+  <!-- Networking Opportunities -->
+  <section class="py-12 bg-gray-100" id="directory">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8 text-red-700">
+     Alumni Directory
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <!-- Profile Card -->
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <img alt="Profile picture of John Doe, Software Engineer at Google" class="w-24 h-24 rounded-full mx-auto mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/UFyjXVL6OKqWJFaj8UdFnGfhg79yWC0Du3CFpV1VeeR6fetdC.jpg" width="150"/>
+      <h3 class="text-xl font-bold text-center">
+       John Doe
+      </h3>
+      <p class="text-center text-gray-600">
+       Software Engineer at Google
+      </p>
+      <div class="mt-4 text-center">
+       <a class="text-red-700 font-bold hover:underline" href="#">
+        Connect
+       </a>
+      </div>
+     </div>
+     <!-- Repeat for each alumni profile -->
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <img alt="Profile picture of Jane Smith, Data Scientist at Facebook" class="w-24 h-24 rounded-full mx-auto mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/3TDWV1iEX763BV2PFnIRqlUUZMAE7WlPQmknmnQiZIyf332JA.jpg" width="150"/>
+      <h3 class="text-xl font-bold text-center">
+       Jane Smith
+      </h3>
+      <p class="text-center text-gray-600">
+       Data Scientist at Facebook
+      </p>
+      <div class="mt-4 text-center">
+       <a class="text-red-700 font-bold hover:underline" href="#">
+        Connect
+       </a>
+      </div>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <img alt="Profile picture of Michael Johnson, Product Manager at Amazon" class="w-24 h-24 rounded-full mx-auto mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/2dxlcimrjtIbE1o4HZod5cYx3xi7i2pGehDChTo1DI17332JA.jpg" width="150"/>
+      <h3 class="text-xl font-bold text-center">
+       Michael Johnson
+      </h3>
+      <p class="text-center text-gray-600">
+       Product Manager at Amazon
+      </p>
+      <div class="mt-4 text-center">
+       <a class="text-red-700 font-bold hover:underline" href="#">
+        Connect
+       </a>
+      </div>
+     </div>
+     <!-- Add more profile cards as needed -->
+    </div>
+   </div>
+  </section>
+  <!-- Events and Reunions -->
+  <section class="py-12 bg-white text-red-700" id="events">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Upcoming Events
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <!-- Event Card -->
+     <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+      <img alt="Image of Alumni Reunion Event" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/CZdu0VzFBJJHPdzfZPYPER9M5wpltf3l9D3rHDw02ut2vvtTA.jpg" width="300"/>
+      <h3 class="text-xl font-bold">
+       Alumni Reunion 2023
+      </h3>
+      <p class="text-gray-600">
+       Join us for a memorable reunion with fellow alumni. Date: June 25, 2023
+      </p>
+      <div class="mt-4">
+       <a class="bg-red-700 text-white px-4 py-2 rounded-lg font-bold hover:bg-red-800" href="#">
+        RSVP
+       </a>
+      </div>
+     </div>
+     <!-- Repeat for each event -->
+     <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+      <img alt="Image of Networking Event" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/Qeh9GEDpxTQEJSsQ0AWZP2Lf0aHWV0bi17Xe2ELq6GtDgf2OB.jpg" width="300"/>
+      <h3 class="text-xl font-bold">
+       Networking Event
+      </h3>
+      <p class="text-gray-600">
+       Connect with industry leaders and fellow alumni. Date: July 15, 2023
+      </p>
+      <div class="mt-4">
+       <a class="bg-red-700 text-white px-4 py-2 rounded-lg font-bold hover:bg-red-800" href="#">
+        RSVP
+       </a>
+      </div>
+     </div>
+     <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+      <img alt="Image of Career Fair Event" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/WK0aBpGbPSaePaOiUUcKksgRWGh7W3mhSSieA2NSKopCwvtTA.jpg" width="300"/>
+      <h3 class="text-xl font-bold">
+       Career Fair
+      </h3>
+      <p class="text-gray-600">
+       Explore career opportunities and meet recruiters. Date: August 10, 2023
+      </p>
+      <div class="mt-4">
+       <a class="bg-red-700 text-white px-4 py-2 rounded-lg font-bold hover:bg-red-800" href="#">
+        RSVP
+       </a>
+      </div>
+     </div>
+     <!-- Add more event cards as needed -->
+    </div>
+   </div>
+  </section>
+  <!-- Discussion Forums -->
+  <section class="py-12 bg-gray-100" id="forums">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8 text-red-700">
+     Discussion Forums
+    </h2>
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+     <h3 class="text-xl font-bold mb-4">
+      General Discussion
+     </h3>
+     <div class="space-y-4">
+      <!-- Forum Thread -->
+      <div class="p-4 bg-gray-100 rounded-lg">
+       <h4 class="font-bold">
+        Topic: Career Advice
+       </h4>
+       <p class="text-gray-600">
+        Started by John Doe
+       </p>
+       <div class="mt-2">
+        <a class="text-red-700 font-bold hover:underline" href="#">
+         Join Discussion
+        </a>
+       </div>
+      </div>
+      <!-- Repeat for each forum thread -->
+      <div class="p-4 bg-gray-100 rounded-lg">
+       <h4 class="font-bold">
+        Topic: Alumni Experiences
+       </h4>
+       <p class="text-gray-600">
+        Started by Jane Smith
+       </p>
+       <div class="mt-2">
+        <a class="text-red-700 font-bold hover:underline" href="#">
+         Join Discussion
+        </a>
+       </div>
+      </div>
+      <div class="p-4 bg-gray-100 rounded-lg">
+       <h4 class="font-bold">
+        Topic: Industry Trends
+       </h4>
+       <p class="text-gray-600">
+        Started by Michael Johnson
+       </p>
+       <div class="mt-2">
+        <a class="text-red-700 font-bold hover:underline" href="#">
+         Join Discussion
+        </a>
+       </div>
+      </div>
+      <!-- Add more forum threads as needed -->
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Mentorship Program -->
+  <section class="py-12 bg-white text-red-700" id="mentorship">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Mentorship Program
+    </h2>
+    <div class="max-w-lg mx-auto bg-gray-100 p-8 rounded-lg shadow-lg">
+     <form>
+      <div class="mb-4">
+       <label class="block text-sm font-bold mb-2" for="student-name">
+        Student Name
+       </label>
+       <input class="w-full p-3 border rounded-lg" id="student-name" placeholder="Your Name" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-bold mb-2" for="student-email">
+        Student Email
+       </label>
+       <input class="w-full p-3 border rounded-lg" id="student-email" placeholder="Your Email" type="email"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-bold mb-2" for="interests">
+        Interests
+       </label>
+       <input class="w-full p-3 border rounded-lg" id="interests" placeholder="Your Interests" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-bold mb-2" for="mentor-preference">
+        Mentor Preference
+       </label>
+       <input class="w-full p-3 border rounded-lg" id="mentor-preference" placeholder="Preferred Mentor" type="text"/>
+      </div>
+      <button class="w-full bg-red-700 text-white p-3 rounded-lg font-bold hover:bg-red-800" type="submit">
+       Find a Mentor
+      </button>
+     </form>
+    </div>
+   </div>
+  </section>
+  <!-- News and Updates -->
+  <section class="py-12 bg-gray-100" id="news">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8 text-red-700">
+     News and Updates
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <!-- News Item -->
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <img alt="Image of College Achievement" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/4qjdmLkzWsaKAtQeNDmOT3Jeis7h4IqDOFyI5JslGbP8vvtTA.jpg" width="300"/>
+      <h3 class="text-xl font-bold">
+       College Achievement
+      </h3>
+      <p class="text-gray-600">
+       Rungta College has been ranked among the top engineering colleges in the country.
+      </p>
+      <div class="mt-4">
+       <a class="text-red-700 font-bold hover:underline" href="#">
+        Read More
+       </a>
+      </div>
+     </div>
+     <!-- Repeat for each news item -->
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <img alt="Image of Alumni Success Story" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/whFfRIxveltpkksiSiPcl4wb7hTz1oE1uPfLcPiosEX1fetdC.jpg" width="300"/>
+      <h3 class="text-xl font-bold">
+       Alumni Success Story
+      </h3>
+      <p class="text-gray-600">
+       John Doe, an alumnus of Rungta College, has been recognized as a top innovator in the tech industry.
+      </p>
+      <div class="mt-4">
+       <a class="text-red-700 font-bold hover:underline" href="#">
+        Read More
+       </a>
+      </div>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <img alt="Image of Industry Update" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/7xqKVfLybQTuCSAaB87O1LfIYtY8sNvG9XA6D7QHWuW5vvtTA.jpg" width="300"/>
+      <h3 class="text-xl font-bold">
+       Industry Update
+      </h3>
+      <p class="text-gray-600">
+       Stay updated with the latest trends and advancements in the engineering field.
+      </p>
+      <div class="mt-4">
+       <a class="text-red-700 font-bold hover:underline" href="#">
+        Read More
+       </a>
+      </div>
+     </div>
+     <!-- Add more news items as needed -->
+    </div>
+   </div>
+  </section>
+  <!-- Donation and Support -->
+  <section class="py-12 bg-white text-red-700" id="donation">
+   <div class="container mx-auto">
+    &lt;h2 class="text-3xl font-bold text-center mb
+   </div>
+  </section>
+ </body>
+</html>
